@@ -1,0 +1,121 @@
+body{
+    font-family:"Lexend Mega",'EB Garamond', serif, sans-serif;
+    font-size: 22px;
+    color: #000000;
+  }
+  h1{
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 20px;
+  
+  }
+  .nav p{
+    text-transform: uppercase;
+  }
+  .main{
+    display: block;
+  }
+  .container-main{
+    display: flex;
+    height: 300px;
+    padding-top: 20px;
+    background-image: url("https://codecademy-content.s3.amazonaws.com/PRO/independent-practice-projects/flexbox-business-site/img/skyscrapers.jpg")
+    
+  }
+  
+  
+  .content {
+    display: block;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+  }
+  .container-portfolio{
+    display:block;
+  }
+  .portfolio-content{
+    display: block;
+    text-align:center;
+    padding-top: 30px;
+  }
+  .portfolio-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .portfolio-gallery-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .portfolio-gallery img{
+    width: 200px;
+    height: auto;
+    
+    
+  }
+  .portfolio-gallery-img span{
+    padding: 5px;
+    text-align: center;
+    min-width: 240px;
+  }
+  .container-team{
+   display:block;
+  }
+  .container-team h2{
+    text-align: center;
+  }
+  .container-team-bk{
+    background-image: url(https://codecademy-content.s3.amazonaws.com/PRO/independent-practice-projects/flexbox-business-site/img/blurred-road.jpg);
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    
+   
+  }
+  .container-team-member{
+    display: block;
+  }
+  .container-team-member-ind{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis: 240px;
+    
+  }
+  .container-team-member-ind img{
+    display:block;
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    flex-basis: 280px;
+    
+  }
+  .container-team-member-ind h3{
+    font-weight: bold;
+    color: white;
+  }
+  .container-team-member-ind p{
+  font-weight: bold;
+  color: white;
+  }
+  .container-team-member-ind h3,p{
+    text-align: center;
+    font-size: 25px;
+  }
+  .container-footer{
+    display:block;
+    
+  }
+  .footer-content{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+  }
